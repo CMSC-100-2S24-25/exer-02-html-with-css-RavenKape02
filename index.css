@@ -1,0 +1,56 @@
+.navigation-flex{
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+.body-flex{
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.body-item{
+    margin: 50px;
+}
+.project-block{
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin: 80px;
+    font-size: 100px;
+}
+.projectsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.skills-autobio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.skills-autobio-item{
+    margin: 80px;
+    margin-left: 80%;
+    margin-right: 160px;
+}
+.footer-flex{
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+#navi-top{
+    margin: auto;
+}
+.personal-logo{
+    height: 200px;
+    width: 200px;
+}
