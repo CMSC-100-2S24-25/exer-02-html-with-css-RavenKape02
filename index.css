@@ -37,9 +37,8 @@
     flex-direction: row;
 }
 .skills-autobio-item{
-    margin: 80px;
-    margin-left: 80%;
-    margin-right: 160px;
+    margin-left: 0%;
+    margin-right: 20%;
 }
 .footer-flex{
     display: flex;
