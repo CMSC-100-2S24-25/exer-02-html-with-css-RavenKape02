@@ -1,3 +1,11 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+    text-decoration: underline;
+}
 .navigation-flex{
     display: flex;
     border-style: solid;
@@ -21,8 +29,15 @@
     border-style: solid;
     border-width: 2px;
     border-color: black;
-    margin: 80px;
-    font-size: 100px;
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.project{
+    margin: auto;
+    font-size: 20px;
 }
 .projectsection{
     display: flex;
@@ -37,8 +52,15 @@
     flex-direction: row;
 }
 .skills-autobio-item{
-    margin-left: 0%;
-    margin-right: 20%;
+    margin: 50px;
+}
+.autobio-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    width: 200px;
 }
 .footer-flex{
     display: flex;
@@ -52,4 +74,7 @@
 .personal-logo{
     height: 200px;
     width: 200px;
+}
+html{
+    scroll-behavior: smooth;
 }
