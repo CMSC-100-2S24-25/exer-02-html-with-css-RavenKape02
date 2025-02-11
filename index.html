@@ -9,66 +9,97 @@
     <link rel="icon" type="image" href="coffee-gif-1.gif">
 </head>
 <body>
-    <div class="navigation-flex">
+    <section id="navsection">
+        <div class="navigation-flex">
 
-        <div id="navi-top">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <div id="navi-top">
+                <a href="#navsection">Home</a>
+                <a href="#bodysection">About</a>
+                <a href="#footersection">Contact</a>
+            </div>
         </div>
-    </div>
+    </section>
 
-    <div class="body-flex">
-        <div class="body-item">
-            <img class="personal-logo" src="coffee-gif-1.gif">
-        </div>
-        
-        <div class="body-item">
-            <h2>Previous Projects</h2>
-        </div>
-
-        <div class="projectsection">
-            <a href="#">
-                <div class="project-block" href="#">
-                    Project 1
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="project-block" href="#">
-                    Project 2
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="project-block" href="#">
-                    Project 3
-                </div>
-            </a>
-        </div>
-
-        <div class="skills-autobio">
-            <div class="skills-autobio-item">
-                <h2>Skills</h2>
-                <ul>
-                    <li>Basketball</li>
-                    <li>Rubiks</li>
-                    <li>Coding</li>
-                </ul>
+    <section id="bodysection">
+        <div class="body-flex">
+            <div class="body-item">
+                <img class="personal-logo" src="coffee-gif-1.gif">
+            </div>
+            
+            <div class="body-item">
+                <h2>Previous Projects</h2>
             </div>
 
-            <div class="skills-autobio-item">
-                <h2>Autobiography</h2>
+            <div class="projectsection">
+                <a href="#">
+                    <div class="project-block">
+                        <a href="https://github.com/RavenKape02/Hometown-Quiz-Game" target="_blank">
+                            <h3 class="project">Hometown Quiz Game</h3>
+                        </a>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="project-block">
+                        <a href="https://github.com/RavenKape02/Simple-Slots-Machine" target="_blank">
+                            <h3 class="project">Simple Slots Machine</h3>
+                        </a>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="project-block">
+                        <a href="https://github.com/RavenKape02/CMSC22_FinalProject" target="_blank">
+                            <h3 class="project">CMSC 22 Final Project: Shooting Game</h3>
+                        </a>
+                    </div>
+                </a>
             </div>
 
-        </div>
-    </div>
+            <div class="skills-autobio">
+                <div class="skills-autobio-item">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Basketball</li>
+                        <li>Rubiks</li>
+                        <li>Coding</li>
+                    </ul>
+                </div>
 
+                <div class="skills-autobio-item">
+                    <div class="autobio-item">
+                        <h2>Autobiography</h2>
+                    </div>
+
+                    <div class="autobio-item">
+                        <p>I'm just a simple person with a hobby in programming. I love creating something new from scratch although I suck at designing as you can see in this html. I love playing basketball and working out as well</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
     
-    <div class="footer-flex">
-        <footer>
+    <section id="footersection">
+        <footer class="footer-flex">
+            <div class="footer-content">
+                <div class="footer-item">
+                    <h3>Contact</h3>
+                    <p>Email: <a href="mailto:jfcaduyac@up.edu.ph">jfcaduyac@up.edu.ph</a></p>
+                    <p>Phone: 0949 417 1058</p>
+                </div>
 
+                <div class="footer-item">
+                    <h3>Socials</h3>
+                    <ul class="social-links">
+                        <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                        <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                        <li><a href="#navsection">Go back to top</a></li>
+                    </ul>
+                </div>
+            </div>
         </footer>
-    </div>
+    </section>   
 </body>
 </html>
